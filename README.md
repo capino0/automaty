@@ -9,7 +9,7 @@ Tento projekt obsahuje jednoduchou textovou implementaci výherního automatu v 
 import random
 ```
 
-###Inicializace hry
+### Inicializace hry
 ```python
 symboly = ["🍺","🍷","🍸","🍹","🍑","🍆"]
 kredit = 100
@@ -20,7 +20,7 @@ pocet_3_ruzne_za_sebou = 0
 `kredit`: Počáteční kredit hráče.
 `pocet_3_ruzne_za_sebou`: Počítadlo pro případ 3 různých symbolů za sebou – slouží k útěchové výhře.
 
-###Uvítání a úvodní informace
+### Uvítání a úvodní informace
 ```python
 print("🎰 Vítej ve výherním automatu!")
 print("Za každé zatočení zaplatíš 10 Kč. Pokud padnou 3 stejné symboly, vyhráváš 50 Kč.")
@@ -29,7 +29,7 @@ print("Za každé zatočení zaplatíš 10 Kč. Pokud padnou 3 stejné symboly, 
 Hra pokračuje, dokud má hráč alespoň 10 Kč.
 Každé zatočení stojí 10 Kč.
 
-###Vygenerování tahu
+### Vygenerování tahu
 ```python
 tah = [random.choice(symboly) for _ in range(3)]
 print(" | ".join(tah))

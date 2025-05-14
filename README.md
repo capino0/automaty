@@ -51,4 +51,10 @@ while kredit >= 10:
     kredit -= 10
     # Generování a vyhodnocení výsledku by následovalo
 ```
-
+## Jak spustit kód
+1. Ujistěte se, že máte nainstalovaný Python 3.
+2. Stáhněte si soubor `automaty.py` z tohoto repozitáře.
+3. Spusťte kód pomocí příkazu:
+   ```bash
+   python automaty.py
+   ```

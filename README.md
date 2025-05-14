@@ -1,6 +1,6 @@
 # Výherní automat 🎰
 
-Tento projekt obsahuje jednoduchou textovou implementaci výherního automatu v Pythonu. Hráč začíná se 100 Kč kreditem a cílem je získat výherní kombinace symbolů. Hra obsahuje několik různých výherních podmínek a útěchové výhry.
+Tento projekt obsahuje jednoduchou textovou implementaci výherního automatu v Pythonu. Nechal jsem se inspirovat mým předešlým projektem kde jsem ztvarnil hru blackjack. Hráč začíná se 100 Kč kreditem a cílem je získat výherní kombinace symbolů. Hra obsahuje několik různých výherních podmínek a útěchové výhry.
 
 ## Vysvětlení kódu
 

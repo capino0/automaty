@@ -91,5 +91,5 @@ Uložte kód do souboru, např. automat.py.
 Spusťte kód pomocí příkazu:
 
 ```
-python automat.py
+python automaty.py
 ```

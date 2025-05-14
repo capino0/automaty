@@ -37,14 +37,14 @@ Hráč začíná s kreditem **100 Kč**. Každé zatočení stojí **10 Kč**. P
 ```python
 import random
 ```
-#Inicializace proměnných
+# Inicializace proměnných
 ```
 symboly = ["🍺","🍷","🍸","🍹","🍑","🍆"]
 kredit = 100
 pocet_3_ruzne_za_sebou = 0
 ```
 
-#Hlavní herní smyčka
+# Hlavní herní smyčka
 ```
 while kredit >= 10:
     input("Stiskni ENTER pro zatočení...")

@@ -83,8 +83,11 @@ if kredit < 10:
 Hráč má možnost hru dobrovolně ukončit.
 
 Jak spustit kód
+
 Ujistěte se, že máte nainstalovaný Python 3.
+
 Uložte kód do souboru, např. automat.py.
+
 Spusťte kód pomocí příkazu:
 
 ```

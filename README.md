@@ -1,60 +1,36 @@
-# 🎰 Výherní Automat v Pythonu
+# Výherní automat 🎰
 
-![Python Version](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
+Tento projekt obsahuje jednoduchou textovou implementaci výherního automatu v Pythonu. Hráč začíná se 100 Kč kreditem a cílem je získat výherní kombinace symbolů. Hra obsahuje několik různých výherních podmínek a útěchové výhry.
 
-Jednoduchá textová implementace výherního automatu napsaná v Pythonu.
+## Vysvětlení kódu
 
-## 📋 Obsah
-- [Popis hry](#-popis-hry)
-- [Jak hrát](#-jak-hrát)
-- [Struktura kódu](#-struktura-kódu)
-- [Instalace a spuštění](#-instalace-a-spuštění)
-- [Možná rozšíření](#-možná-rozšíření)
-- [Licence](#-licence)
-
-## 🎮 Popis hry
-Hráč začíná s kreditem **100 Kč**. Každé zatočení stojí **10 Kč**. Pokud se objeví **3 stejné symboly** vedle sebe, hráč vyhrává **50 Kč**.
-
-**Používané symboly:**
-- 🍺 (pivo)
-- 🍷 (víno)
-- 🍸 (koktejl)
-- 🍹 (tropický drink)
-- 🍑 (broskev)
-- � (lilek)
-
-## 🕹️ Jak hrát
-1. Spusťte program
-2. Stiskněte `ENTER` pro zatočení
-3. Každé zatočení odečte 10 Kč z kreditu
-4. Při výhře (3 stejné symboly) získáte 50 Kč
-5. Hra končí, když kredit klesne pod 10 Kč
-
-## 💻 Struktura kódu
-
-### 📚 Importované knihovny
+### Import knihovny
 ```python
 import random
 ```
-## Inicializace proměnných
+
+###Inicializace hry
 ```python
 symboly = ["🍺","🍷","🍸","🍹","🍑","🍆"]
 kredit = 100
 pocet_3_ruzne_za_sebou = 0
 ```
 
-## Hlavní herní smyčka
+`symboly`: Seznam symbolů, které se mohou objevit při zatočení.
+`kredit`: Počáteční kredit hráče.
+`pocet_3_ruzne_za_sebou`: Počítadlo pro případ 3 různých symbolů za sebou – slouží k útěchové výhře.
+
+###Uvítání a úvodní informace
 ```python
-while kredit >= 10:
-    input("Stiskni ENTER pro zatočení...")
-    kredit -= 10
-    # Generování a vyhodnocení výsledku by následovalo
+print("🎰 Vítej ve výherním automatu!")
+print("Za každé zatočení zaplatíš 10 Kč. Pokud padnou 3 stejné symboly, vyhráváš 50 Kč.")
 ```
-## Jak spustit kód
-1. Ujistěte se, že máte nainstalovaný Python 3.
-2. Stáhněte si soubor `automaty.py` z tohoto repozitáře.
-3. Spusťte kód pomocí příkazu:
-   ```bash
-   python automaty.py
-   ```
+
+Hra pokračuje, dokud má hráč alespoň 10 Kč.
+Každé zatočení stojí 10 Kč.
+
+###Vygenerování tahu
+```python
+tah = [random.choice(symboly) for _ in range(3)]
+print(" | ".join(tah))
+```

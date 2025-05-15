@@ -25,7 +25,7 @@ while kredit >= 10:
         pocet_3_ruzne_za_sebou = 0
     elif len(set(tah)) == 3:
         pocet_3_ruzne_za_sebou += 1
-        print(f"🔄 3 různé symboly ({pocet_3_ruzne_za_sebou}x za sebou)")
+        print(f" 3 různé symboly ({pocet_3_ruzne_za_sebou}x za sebou)")
 
         if pocet_3_ruzne_za_sebou == 3:
             print("🎁 Útěcha! 3 různé padly 3x za sebou – dostáváš 5 Kč!")

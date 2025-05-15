@@ -94,7 +94,7 @@ Spusťte kód pomocí příkazu:
 python automaty.py
 ```
 ## Poznamky
-Pořád se to učím sám a rekl bych ze delam pokroky i kdyz je v podstate jen ciklus furt dokola.
+Pořád se to učím sám a řekl bych že delám pokroky i když je v podstatě jen cyklus furt dokola.
 
 ## Licence
 Tento projekt je licencován pod licencí MIT.

@@ -93,7 +93,7 @@ Spusťte kód pomocí příkazu:
 ```
 python automaty.py
 ```
-## Poznamky
+## Poznámky
 Pořád se to učím sám a řekl bych že delám pokroky i když je v podstatě jen cyklus furt dokola.
 
 ## Licence

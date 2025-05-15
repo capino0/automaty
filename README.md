@@ -95,6 +95,7 @@ python automaty.py
 ```
 ## Poznámky
 Pořád se to učím sám a řekl bych že delám pokroky i když je v podstatě jen cyklus furt dokola.
+
 Chtěl bych poděkovat Betanu za inspiraci.
 
 ## Licence

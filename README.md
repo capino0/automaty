@@ -93,17 +93,19 @@ Spusťte kód pomocí příkazu:
 ```
 python automaty.py
 ```
+## Poznamky
+Pořád se to učím sám a rekl bych ze delam pokroky i kdyz je v podstate jen ciklus furt dokola.
 
 ## Licence
 Tento projekt je licencován pod licencí MIT.
 
 ## Nástroje: 
 
-JetBrains s.r.o. (2000–2025). PyCharm. Dostupné z: https://www.jetbrains.com/pycharm/download/?section=windows [cit. 2025-1-5].
+JetBrains s.r.o. (2000–2025). PyCharm. Dostupné z: https://www.jetbrains.com/pycharm/download/?section=windows [cit. 2025-5-8].
 
-OpenAI. (2023). ChatGPT Language Model. Dostupné z: https://openai.com/chatgpt [cit. 2025-1-5].
+OpenAI. (2023). ChatGPT Language Model. Dostupné z: https://openai.com/chatgpt [cit. 2025-5-8].
 
 ## Literatura:
 
-InterviewBit. (2021–2023). Python Commands List. Dostupné z: https://www.interviewbit.com/blog/python-commands/ [cit. 2025-1-5].
+InterviewBit. (2021–2023). Python Commands List. Dostupné z: https://www.interviewbit.com/blog/python-commands/ [cit. 2025-5-8].
 

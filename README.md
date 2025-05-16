@@ -1,4 +1,4 @@
-# Výherní automat 🎰
+# Herní automat 🎰
 
 Tento projekt je kod na herni automaty naprogramovan v pythonu. Nechal jsem se inspirovat mým předešlým projektem kde jsem ztvarnil hru blackjack. Váš počateční balance je 100Kč. Hra obsahuje pár možností na výhry.
 

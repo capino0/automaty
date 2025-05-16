@@ -82,7 +82,7 @@ if kredit < 10:
 
 Hráč má možnost hru dobrovolně ukončit.
 
-Jak spustit kód
+## Jak spustit kód
 
 Ujistěte se, že máte nainstalovaný Python 3.
 
